@@ -1,0 +1,49 @@
+{
+  "name": "jaw-loader",
+  "version": "0.6.0",
+  "description": "",
+  "maintainers": [
+    {
+      "name": "army8735",
+      "email": "army8735@qq.com"
+    }
+  ],
+  "scripts": {
+    "test": "make test"
+  },
+  "config": {
+    "blanket": {
+      "pattern": "index.js"
+    }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/migijs/jaw-loader.git"
+  },
+  "keywords": [
+    "webpack",
+    "loader",
+    "jaw"
+  ],
+  "author": "army8735",
+  "license": "MIT",
+  "dependencies": {
+    "jaw": "~0.5.0"
+  },
+  "main": "./index",
+  "engines": {
+    "node": ">= 0.4.2"
+  },
+  "readmeFilename": "README.md",
+  "devDependencies": {
+    "blanket": "^1.1.7",
+    "coveralls": "^2.10.0",
+    "expect.js": "^0.3.1",
+    "gulp": "^3.9.0",
+    "gulp-clean": "^0.2.4",
+    "gulp-util": "^2.2.14",
+    "mocha": "^2.2.5",
+    "mocha-lcov-reporter": "^0.0.2",
+    "through2": "^2.0.0"
+  }
+}
