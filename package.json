@@ -1,6 +1,6 @@
 {
   "name": "jaw-loader",
-  "version": "0.10.1",
+  "version": "3.0.0",
   "description": "",
   "maintainers": [
     {
@@ -28,7 +28,7 @@
   "author": "army8735",
   "license": "MIT",
   "dependencies": {
-    "jaw": "~0.10.1"
+    "jaw": "~3.0.1"
   },
   "main": "./index",
   "engines": {
